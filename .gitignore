@@ -1,0 +1,52 @@
+# ===== 密钥与敏感信息（绝对不能提交）=====
+.env
+.env.*
+!.env.example
+*.key
+API/key.txt
+secrets.json
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+ENV/
+
+# ===== 运行产物与日志 =====
+*.log
+logs/
+test_log.csv
+output/
+outputs/
+*.stl
+*.png
+*.jpg
+*.jpeg
+
+# 模板渲染/下载的临时文件
+tmp/
+temp/
+
+# ===== 编辑器与系统 =====
+.idea/
+**/.vscode/*
+!**/.vscode/settings.json
+!**/.vscode/extensions.json
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Office 临时文件 =====
+~$*.pptx
+~$*.docx
+~$*.xlsx
